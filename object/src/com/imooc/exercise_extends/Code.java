@@ -1,4 +1,4 @@
-package com.imooc.exercise;
+package com.imooc.exercise_extends;
 public class Code {
     //创建Code类的构造块（构造块）
     {

@@ -1,4 +1,4 @@
-package com.imooc.exercise;
+package com.imooc.exercise_extends;
 
 public class UserManager {
     // 用户信息验证的方法

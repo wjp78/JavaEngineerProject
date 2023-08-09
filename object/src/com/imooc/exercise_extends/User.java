@@ -1,4 +1,4 @@
-package com.imooc.exercise;
+package com.imooc.exercise_extends;
 
 public class User{
     //定义属性用户名、密码

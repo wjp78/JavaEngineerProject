@@ -1,4 +1,4 @@
-package com.imooc.exercise;
+package com.imooc.exercise_extends;
 
 public class Book {
     //私有属性：书名、作者、出版社、价格

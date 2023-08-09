@@ -2,6 +2,7 @@ package com.imooc.animal;
 
 public class Cat extends Animal {
     private double weight; // 体重
+    // public int temp = 300;
 
     public Cat() {
 

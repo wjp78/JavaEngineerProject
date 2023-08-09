@@ -32,11 +32,9 @@ public class Dog extends Animal {
      * 2、方法名相同，参数列表相同（参数顺序、个数、类型）
      * 3、访问修饰服？
      * 4、与方法的参数名无关
-     * 5、方法返回值？
+     * 5、当方法返回值是void或基本数据类型时，必须相同；当返回值是引用类型时，可以是父类或其子类
      */
-    public void eat() {
-        System.out.println(this.getName() + "最近没有食欲~");
-    }
+
     // private String sleep(String name) {
     //     return "";
     // }
@@ -49,4 +47,17 @@ public class Dog extends Animal {
     // public void sleep (int name, String month) {
     //
     // }
+
+    public void eat() {
+        System.out.println(this.getName() + "最近没有食欲~");
+    }
+
+    public void eat(String month) {
+        System.out.println(month + "最近没有食欲～");
+    }
+
+    public Cat jump() {
+        System.out.println("狗狗是助跑式跳跃～");
+        return new Cat();
+    }
 }

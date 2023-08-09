@@ -1,4 +1,4 @@
-package com.imooc.exercise;
+package com.imooc.exercise_extends;
 
 public class CodeBlock {
     // 创建CodeBlock的构造块
