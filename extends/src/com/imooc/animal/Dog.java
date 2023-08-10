@@ -17,6 +17,8 @@ public class Dog extends Animal {
 
     // 睡觉的方法
     public void  sleep() {
+        super.eat(); // 调用的哪个eat();
+        super.species = "犬科";
         System.out.println(this.getName() + "现在" + this.getMonth() + "个月大，它在睡觉～～");
     }
 
@@ -30,7 +32,7 @@ public class Dog extends Animal {
      * 方法重写：
      * 1、有继承关系的子类中
      * 2、方法名相同，参数列表相同（参数顺序、个数、类型）
-     * 3、访问修饰服？
+     * 3、访问修饰符，访问范围需要大于等于父类的访问范围
      * 4、与方法的参数名无关
      * 5、当方法返回值是void或基本数据类型时，必须相同；当返回值是引用类型时，可以是父类或其子类
      */
