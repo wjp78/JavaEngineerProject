@@ -16,9 +16,9 @@ public class Test {
         Dog two = new Dog();
         two.setName("妞妞");
         two.setMonth(1);
-//        two.eat();
-        two.sleep();
-        System.out.println("===========================");
+        two.eat();
+        // two.sleep();
+        // System.out.println("===========================");
 //        two.eat("凡凡");
         // System.out.println("===========================");
 //        Animal three = new Animal();

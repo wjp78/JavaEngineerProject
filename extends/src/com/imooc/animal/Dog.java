@@ -50,9 +50,10 @@ public class Dog extends Animal {
     //
     // }
 
-    public void eat() {
-        System.out.println(this.getName() + "最近没有食欲~");
-    }
+    // 子类重写父类吃东西方法
+    // public void eat() {
+    //     System.out.println(this.getName() + "最近没有食欲~");
+    // }
 
     public void eat(String month) {
         System.out.println(month + "最近没有食欲～");
@@ -61,5 +62,15 @@ public class Dog extends Animal {
     public Cat jump() {
         System.out.println("狗狗是助跑式跳跃～");
         return new Cat();
+    }
+
+    @Override
+    public void eat() {
+        // super.eat();
+    }
+
+    @Override
+    public Dog create() {
+        return new Dog();
     }
 }

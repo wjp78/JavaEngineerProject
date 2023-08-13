@@ -1,16 +1,12 @@
 package com.imooc.animal;
 
+/**
+ * final class: 该类没有子类 public final class / final public class
+ * final 方法：该方法不允许被子类重写，但是可以正常被子类继承使用
+ * final 方法内局部变量：只要在具体被使用之前进行赋值即可，一旦赋值不允许被修改
+ *       类中成员属性：赋值过程：1、定义直接初始化 2、构造方法 3、构造代码块
+ */
 public class Animal {
-    public static int st2 = 23;
-    private static int st1 = 22;
-
-    static {
-        System.out.println("我是父类的静态代码块");
-    }
-
-    public int temp = 15;
-    protected int month = 2; // 月份
-    String species = "动物"; // 品种
     /**
      * private: 只允许在本类中进行访问
      * public: 允许在任意位置访问
@@ -18,13 +14,25 @@ public class Animal {
      * 默认: 允许在当前类、同包子类/非子类调用；跨包子类/非子类不允许调用
      */
     private String name = "妮妮"; // 昵称
+    protected int month = 2; // 月份
+    String species = "动物"; // 品种
+    public static final int temp = 12;
+
+    static {
+         System.out.println("我是父类的静态代码块");
+    }
+
+    public static int st2 = 23;
+    private static int st1 = 22;
 
     {
+        // temp = 12;
         System.out.println("我是父类的构造代码块");
     }
 
     // 父类的构造不允许被继承、不允许被重写，但是会影响子类对象的实例化
     public Animal() {
+        // temp = 20;
         System.out.println("我是父类的无参构造方法");
     }
 
@@ -35,6 +43,7 @@ public class Animal {
     }
 
     public String getName() {
+        // this.temp = 22;
         return name;
     }
 
@@ -64,7 +73,16 @@ public class Animal {
     }
 
     public void eat(String name) {
+        final int temp; // 方法内的局部变量
+        // temp = 12;
         System.out.println(name + "在吃东西");
+        temp = 12;
+        System.out.println(temp);
+
+        final Animal animal = new Animal("凡凡", 1);
+        // animal = new Animal();
+        animal.setMonth(12);
+        animal.setName("豆豆");
     }
 
     public Animal jump() {
@@ -83,4 +101,9 @@ public class Animal {
     public String toString() {
         return "昵称：" + this.getName() + "；年龄：" + this.getMonth();
     }
+
+    public Animal create() {
+        return new Animal();
+    }
+
 }
