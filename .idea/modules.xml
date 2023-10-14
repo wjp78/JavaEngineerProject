@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/basic/basic.iml" filepath="$PROJECT_DIR$/basic/basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exception/exception.iml" filepath="$PROJECT_DIR$/exception/exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/extends/extends.iml" filepath="$PROJECT_DIR$/extends/extends.iml" />
       <module fileurl="file://$PROJECT_DIR$/object/object.iml" filepath="$PROJECT_DIR$/object/object.iml" />
       <module fileurl="file://$PROJECT_DIR$/../polymorphism/polymorphism.iml" filepath="$PROJECT_DIR$/../polymorphism/polymorphism.iml" />
