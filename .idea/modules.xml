@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WrappProg/WrappProg.iml" filepath="$PROJECT_DIR$/WrappProg/WrappProg.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/basic.iml" filepath="$PROJECT_DIR$/basic/basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/exception/exception.iml" filepath="$PROJECT_DIR$/exception/exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/extends/extends.iml" filepath="$PROJECT_DIR$/extends/extends.iml" />
       <module fileurl="file://$PROJECT_DIR$/object/object.iml" filepath="$PROJECT_DIR$/object/object.iml" />
       <module fileurl="file://$PROJECT_DIR$/../polymorphism/polymorphism.iml" filepath="$PROJECT_DIR$/../polymorphism/polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/../singleton/singleton.iml" filepath="$PROJECT_DIR$/../singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wrappProg/wrappProg.iml" filepath="$PROJECT_DIR$/wrappProg/wrappProg.iml" />
     </modules>
   </component>
 </project>
