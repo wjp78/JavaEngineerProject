@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/object/object.iml" filepath="$PROJECT_DIR$/object/object.iml" />
       <module fileurl="file://$PROJECT_DIR$/../polymorphism/polymorphism.iml" filepath="$PROJECT_DIR$/../polymorphism/polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/../singleton/singleton.iml" filepath="$PROJECT_DIR$/../singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stringProj/stringProj.iml" filepath="$PROJECT_DIR$/stringProj/stringProj.iml" />
       <module fileurl="file://$PROJECT_DIR$/wrappProg/wrappProg.iml" filepath="$PROJECT_DIR$/wrappProg/wrappProg.iml" />
     </modules>
   </component>
