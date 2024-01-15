@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/exception/exception.iml" filepath="$PROJECT_DIR$/exception/exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/extends/extends.iml" filepath="$PROJECT_DIR$/extends/extends.iml" />
       <module fileurl="file://$PROJECT_DIR$/io/io.iml" filepath="$PROJECT_DIR$/io/io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new-features/new-features.iml" filepath="$PROJECT_DIR$/new-features/new-features.iml" />
       <module fileurl="file://$PROJECT_DIR$/object/object.iml" filepath="$PROJECT_DIR$/object/object.iml" />
       <module fileurl="file://$PROJECT_DIR$/parameterized-type/parameterized-type.iml" filepath="$PROJECT_DIR$/parameterized-type/parameterized-type.iml" />
       <module fileurl="file://$PROJECT_DIR$/../polymorphism/polymorphism.iml" filepath="$PROJECT_DIR$/../polymorphism/polymorphism.iml" />
